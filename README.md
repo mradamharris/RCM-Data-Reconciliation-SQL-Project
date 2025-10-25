@@ -1,7 +1,5 @@
 # RCM-Data-Reconciliation-SQL-Project
 
-<h1>JWipe - Disk Sanitization</h1>
-
 <h2>Description</h2>
 This project is a single example of my experience in RCM (Revenue Cycle Management) healthcare analytics. The dataset and metrics shown here are a subset of dummy data to protect the rights and privacy of the company this was done for and those it serves. Although the data is fictional, this project was not. It helped an organization identify bottlenecks and millions of dollars in potential miscalculations. Allow me to walk you through an overview of the journey...
 <br />
@@ -12,10 +10,17 @@ This project is a single example of my experience in RCM (Revenue Cycle Manageme
 - <b>SQL Server</b> 
 - <b>Excel</b>
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
+<p align="left">
+ A healthcare organization had recently migrated all of their data from one system to another. About a year and a half later, the executives noticed millions in financial losses and huge data gaps in their current reporting. They brought in a team of consultants to locate the major issues. 
+ 
+ That's where I was called in to perform a major reconciliation comparing the data from the former system to the current. They wanted to know the best way to compare "apples to apples" using the previous data as the source of truth.
+ 
+ The first step was understanding the complexity of the data. The new system had the data organized into two servers. One for the data before the major transition to the current system and one for everything after. To take it a step further, they seperated the data between multiple databases within those servers based on the region the data originated from. After multiple talks with the client, it was time to strategize my next steps...<br/>
+
+<img width="80%" height="80%" alt="Focused on Data Insights" src="https://github.com/user-attachments/assets/e040ac7d-819e-4e3c-8fa2-8f69d3e3a0cd" />
+ 
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
