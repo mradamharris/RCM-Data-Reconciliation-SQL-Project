@@ -20,6 +20,12 @@ This project is a single example of my experience in RCM (Revenue Cycle Manageme
  The first step was understanding the complexity of the data. The new system had the data organized into two servers. One for the data before the major transition to the current system and one for everything after. To take it a step further, they seperated the data between multiple databases within those servers based on the region the data originated from. After multiple talks with the client, it was time to strategize my next steps...<br/>
 
 <img width="80%" height="80%" alt="Focused on Data Insights" src="https://github.com/user-attachments/assets/e040ac7d-819e-4e3c-8fa2-8f69d3e3a0cd" />
+
+I then analyzed the reporting views and compared them to the fact tables they derived from. If all of the data had been migrated over, why would the new database not line up to the previous? I looked for the month with the biggest charge variances. From there I narrowed it down to the day within that month with the largest variance. Lastly, I chose a single patient's charges for that day. That's when I discovered a flaw in the ingestion process. The data was all there if properly pulled from the fact tables, taking into account a few nuances. However, there were outliers due to key identifiers being updated in the system. Because of all the different payment processes, plans and denials, some edits took longer than others to make it to the reporting tables. Seeing how there were only a few analysts but the overall analytics department was in a rebuilding season, it was easy to ascertain why these blind spots existed. It was time to figure out the correct way to query the fact tables in a way the matched the old database. I first produced a query that compared the charges, payments and refunds month by month.
+
+(Insert query link)
+
+After validation, I extracted the data into excel in a straightforward way for the executive team to view. Since there were multiple databases, I had to query each and combine the totals to match that of the old system. At this point, the team began to regain confidence in the integrity of the data. 
  
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
