@@ -39,7 +39,7 @@ Once it was confirmed that everyone was confident in results of the monthly reco
 
 This was also extracted into multiple excel files and organized for the team to easily assess.
 
-(Insert excel file)
+<a href="https://github.com/mradamharris/Excel-File2">CLICK HERE to view Excel File 2</a>
 
 In the end, the company was able to gain insight into how to move forward as an organization. It was a huge weight lifted off of the decision making and a memorable experience!
 
