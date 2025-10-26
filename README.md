@@ -27,7 +27,8 @@ I then analyzed the reporting views and compared them to the fact tables they de
 
 After validation, I extracted the data into excel in a straightforward way for the executive team to view. Since there were multiple databases, I had to query each and combine the totals to match that of the old system. At this point, the team began to regain confidence in the integrity of the data. 
 
-(Insert excel file link)
+<a href="https://github.com/mradamharris/Excel-File1">CLICK HERE to view Excel File 1</a>
+
 
 <p align="right">
 <img width="80%" height="80%" alt="ChatGPT Image Oct 26, 2025, 06_45_17 AM" src="https://github.com/user-attachments/assets/f5b31cae-b4f9-4d6e-8bfb-dd51c15fcd81" />
