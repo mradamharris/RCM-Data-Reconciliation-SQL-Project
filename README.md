@@ -23,7 +23,7 @@ This project is a single example of my experience in RCM (Revenue Cycle Manageme
 
 I then analyzed the reporting views and compared them to the fact tables they derived from. If all of the data had been migrated over, why would the new database not line up to the previous? I looked for the month with the biggest charge variances. From there I narrowed it down to the day within that month with the largest variance. Lastly, I chose a single patient's charges for that day. That's when I discovered a flaw in the ingestion process. The data was all there if properly pulled from the fact tables, taking into account a few nuances. However, there were outliers due to key identifiers being updated in the system. Because of all the different payment processes, plans and denials, some edits took longer than others to make it to the reporting tables. Seeing how there were only a few analysts but the overall analytics department was in a rebuilding season, it was easy to ascertain why these blind spots existed. It was time to figure out the correct way to query the fact tables in a way the matched the old database. I first produced a query that compared the charges, payments and refunds month by month.
 
-<a href="https://github.com/mradamharris/Query-1">CLICK HERE to view SQL Query 1</a>
+<a href="https://github.com/mradamharris/Query-2">CLICK HERE to view SQL Query 1</a>
 
 After validation, I extracted the data into excel in a straightforward way for the executive team to view. Since there were multiple databases, I had to query each and combine the totals to match that of the old system. At this point, the team began to regain confidence in the integrity of the data. 
 
@@ -34,7 +34,7 @@ After validation, I extracted the data into excel in a straightforward way for t
 
 Once it was confirmed that everyone was confident in results of the monthly reconciliation, the team wanted me to produce one more query based on my same logic to pull all of the data for the full year at the transaction level. They wanted to be able to continue using this query going forward to gain further insight. Although this wasn't the most complicated part of the project, it took a little more time seeing as how they wanted every transaction from the last couple of years.
 
-<a href="https://github.com/mradamharris/Query-2">CLICK HERE to view SQL Query 2</a>
+<a href="https://github.com/mradamharris/Query-1">CLICK HERE to view SQL Query 2</a>
 
 This was also extracted into multiple excel files and organized for the team to easily assess.
 
