@@ -26,40 +26,28 @@ I then analyzed the reporting views and compared them to the fact tables they de
 (Insert query link)
 
 After validation, I extracted the data into excel in a straightforward way for the executive team to view. Since there were multiple databases, I had to query each and combine the totals to match that of the old system. At this point, the team began to regain confidence in the integrity of the data. 
- 
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+(Insert excel file link)
+
+<p align="right">
+<img width="80%" height="80%" alt="ChatGPT Image Oct 26, 2025, 06_45_17 AM" src="https://github.com/user-attachments/assets/f5b31cae-b4f9-4d6e-8bfb-dd51c15fcd81" />
+
+Once it was confirmed that everyone was confident in results of the monthly reconciliation, the team wanted me to produce one more query based on my same logic to pull all of the data for the full year at the transaction level. They wanted to be able to continue using this query going forward to gain further insight. Although this wasn't the most complicated part of the project, it took a little more time seeing as how they wanted every transaction from the last couple of years.
+
+(Insert query link)
+
+This was also extracted into multiple excel files and organized for the team to easily assess.
+
+(Insert excel file)
+
+In the end, the company was able to gain insight into how to move forward as an organization. It was a huge weight lifted off of the decision making and a memorable experience!
+
+<p align="middle">
+<img width="80%" height="80%" alt="ChatGPT Image Oct 26, 2025, 07_15_18 AM" src="https://github.com/user-attachments/assets/8ce7cdc9-3019-45d6-8429-2995ebce9dbf" />
+
+<p align="middle">
+The End
+
+<br />
+<br />
+</p>
