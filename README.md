@@ -37,7 +37,9 @@ After validation, I extracted the data into excel in a straightforward way for t
 <p align="right">
 <img width="80%" height="80%" alt="ChatGPT Image Oct 26, 2025, 06_45_17 AM" src="https://github.com/user-attachments/assets/f5b31cae-b4f9-4d6e-8bfb-dd51c15fcd81" />
 
-Once it was confirmed that everyone was confident in results of the monthly reconciliation, the team wanted me to produce one more query based on my same logic to pull all of the data for the full year at the transaction level. They wanted to be able to continue using this query going forward to gain further insight. Although this wasn't the most complicated part of the project, it took a little more time seeing as how they wanted every transaction from the last couple of years.
+Once it was confirmed that everyone was confident in results of the monthly reconciliation, the team wanted me to produce one more query based on my same logic to pull all of the data for the full year at the transaction level. They wanted to be able to continue using this query going forward to gain further insight. 
+
+Although this wasn't the most complicated part of the project, it took a little more time seeing as how they wanted every transaction from the last couple of years.
 
 <a href="https://github.com/mradamharris/Query-1">CLICK HERE to view SQL Query 2</a>
 
